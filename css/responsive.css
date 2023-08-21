@@ -1,0 +1,75 @@
+@media (max-width:1280px) {
+    aside.menu-lateral {
+        display: none;
+    }
+
+    body main {
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+        top: 200px;
+        left: 0%;
+
+    }
+
+   body .menu-mobile {
+        display: flex;
+    }
+   body .menu-mobile-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    
+   }
+    .opnioes-dos-pacientes-container {
+        width: auto;
+        margin: 0 auto;
+    }
+
+.agendar-sua-consulta{
+        background-color: bisque;
+        padding: 10px;
+        border-radius: 20px;
+
+    }
+}
+
+@media (max-width: 820px) {
+    .sobre-mim-infos img {
+        margin: 0 auto 70px;
+    }
+}
+
+@media (max-width: 945px){
+    body .galeria-de-opcoes{
+       flex-wrap: wrap;
+       width: 100vw;
+    }
+
+   body .galeria-container img{
+       width: 100%;
+       object-fit: cover;
+    }
+    body .galeria-container{
+        width: 100%;
+    }
+
+.caixa-opcoes{
+    width: 100vw;
+}
+
+   .secao-sobre-mim > .titulo-paragrafo{
+    margin-top: 800px;
+   }
+
+   body .caixa-opcoes{
+    width: 100%;
+   }
+
+   body .menu-mobile img{
+    display: none;
+   }
+}
+

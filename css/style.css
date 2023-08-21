@@ -1,0 +1,366 @@
+body {
+    background-color: #333333;
+    height: 100vh;
+
+}
+
+a {
+    text-decoration: none;
+}
+.menu-mobile{
+    background-color: #fff;
+    display: none;
+    
+}
+
+.menu-mobile-container a{
+    text-decoration: none;
+    color:#000;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.menu-mobile-container li{
+    list-style: none;
+}
+
+.menu-mobile-container img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.menu-mobile-container ul{
+    display: flex;
+    gap: 20px;
+    padding: 0 30px 0 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-lateral {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    background-color: #fff;
+    width: 25%;
+    z-index: 999;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0 10px 2px #000;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+
+
+main {
+    height: 100vh;
+    width: 70%;
+    position: relative;
+    top: 0;
+    left: 30%;
+
+}
+
+h1 {
+    font-weight: normal;
+    text-align: left;
+    font-size: 16px;
+    margin: 20px 0 4px 0;
+}
+
+.nome-foto {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: end;
+    padding: 20px;
+    border-bottom: 1px solid black;
+    width: 80%;
+    margin: 0 20px;
+}
+
+.nome-foto img {
+    width: 130px;
+    border-radius: 50%;
+}
+
+h2 {
+    font-size: 80px;
+    color: #fff;
+    font-weight: lighter;
+}
+
+.span {
+    font-weight: 700;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+    z-index: 2;
+}
+
+header p {
+    color: #5A5950;
+    font-size: 27px;
+    margin: 0 0 0 5px;
+}
+
+.corpo nav {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 30px 0 0;
+    gap: 20px;
+    text-align: right;
+}
+
+.corpo nav a {
+    color: #000;
+    font-size: 24px;
+    font-weight: lighter;
+    transition: 0.4s ease-in-out;
+}
+
+.corpo nav a:hover {
+    color: #BEA370;
+}
+
+.agendar-consulta,
+.agendar-botao {
+    background-color: #BEA370;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.agendar-botao,
+.secao-contato .agendar-consulta {
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 20px 35px;
+    letter-spacing: 1px;
+}
+
+.secao-contato p {
+    margin: 50px 20px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.agendar {
+    margin: 80px 0 0 0;
+}
+
+.corpo nav .agendar-consulta:hover {
+    color: #fff;
+}
+
+.galeria-de-opcoes {
+    width: 900px;
+    height: 500px;
+    margin: 160px 0 0 -17px;
+    display: flex;
+    gap: 20px;
+    padding-left: 20px;
+    flex-wrap: wrap;
+    
+  }
+
+.caixa-opcoes {
+    width: 380px;
+    height: 270px;
+    border: black;
+    background-color: #5A5950;
+}
+
+.caixa-opcoes {
+    color: #BEA370;
+    padding: 30px 0 0 30px;
+    transition: all .5s ease-in-out;
+}
+
+.caixa-opcoes:hover {
+    background-color: #BEA370;
+}
+
+.g-o-paragrafos p:first-child {
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.g-o-paragrafos p:last-child {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sobre-mim {
+    cursor: pointer;
+}
+
+.caixa-opcoes i {
+    font-size: 60px;
+}
+
+.g-o-paragrafos {
+    margin: 60px 0;
+}
+
+.agendar-opcao {
+    background-color: #BEA370;
+}
+
+.agendar-opcao i {
+    color: #333333;
+}
+
+.titulo-paragrafo {
+    margin: 150px 0 0 0;
+}
+
+.titulo-paragrafo h2 {
+    font-size: 50px;
+    color: #fff;
+    font-weight: lighter;
+}
+
+.titulo-paragrafo p {
+    font-size: 30px;
+    color: #777776;
+    font-weight: 700;
+    position: relative;
+}
+
+.titulo-paragrafo p::after {
+    content: "";
+    width: 10%;
+    height: 8px;
+    background-color: #BEA370;
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+
+.sobre-mim-infos {
+    margin: 150px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    text-align: center;
+}
+
+.sobre-mim-infos p {
+    font-size: 30px;
+    color: #fff;
+    width: 500px;
+    margin: 0 auto;
+    line-height: 50px;
+}
+
+.sobre-mim-infos img {
+    width: 300px;
+}
+
+.endereco {
+    margin: 150px 0;
+    border-left: 8px solid #BEA370;
+    padding-left: 8px;
+}
+
+.endereco h3 {
+    font-size: 27px;
+    color: #fff;
+    font-weight: 100;
+}
+
+.endereco p {
+    font-size: 20px;
+    color: #ccc;
+    margin: 20px 2px;
+}
+
+.endereco a {
+    color: #fff;
+    transition: all .8s ease;
+}
+
+.endereco a:hover {
+    color: #BEA370;
+}
+
+.endereco a i {
+    transform: rotate(-45deg);
+}
+
+.secao-contato>.agendar-consulta,
+.agendar-botao {
+    transition: all .5s ease;
+}
+
+.secao-contato>.agendar-consulta:hover,
+.agendar-botao:hover {
+    background-color: #877657;
+}
+
+.opnioes-dos-pacientes-container {
+    max-width: 600px;
+    height: 350px;
+    text-align: center;
+    margin: 160px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.opnioes-dos-pacientes-container img {
+    border-radius: 50%;
+    width: 70px;
+}
+
+.opnioes-dos-pacientes-container span {
+    color: #FFBE19;
+}
+
+.opnioes-dos-pacientes-container p:first-child {
+    background-color: #434343;
+    border-radius: 20px;
+    padding: 30px 25px;
+    color: #fff;
+}
+
+.paciente {
+    color: #fff;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.galeria-container {
+    height: auto;
+    margin: 160px 0 0 0;
+    width: 800px;
+
+}
+
+.galeria-container img {
+    width: 370px;
+    height: 400px;
+    opacity: 0.5;
+    transition: all .5s ease;
+}
+
+.galeria-container img:hover {
+    opacity: 1;
+}
+
+.open {
+    display: block;
+}
